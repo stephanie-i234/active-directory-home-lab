@@ -1,0 +1,24 @@
+# Active Directory Domain Services Installation
+
+## Objective
+Install Active Directory Domain Services (AD DS) on the Windows Server 2022 virtual machine to prepare the environment for domain controller promotion.
+
+## Actions Performed
+- Opened Server Manager
+- Selected Add Roles and Features
+- Chose Role-based or feature-based installation
+- Selected Active Directory Domain Services role
+- Added required management features
+
+## Reasoning
+AD DS is required to centrally manage users, authentication, computers, and organizational policies within a Windows domain environment.
+
+## Result
+AD DS installed successfully and server prepared for domain controller promotion.
+
+## Issues Encountered
+Initial installation attempts failed due to insufficient VM memory allocation and VMware Easy Install conflicts.
+
+## Resolution
+- Increased VM memory to 4 GB
+- Recreated VM using manual ISO installation process

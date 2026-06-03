@@ -1,0 +1,14 @@
+Purpose:
+Deploy Active Directory Domain Services.
+
+Actions:
+- Created corp.local domain
+- Created Organizational Units:
+  - IT
+  - HR
+  - Sales
+- Created user accounts
+- Created security groups
+
+Result:
+Functional Active Directory environment established.

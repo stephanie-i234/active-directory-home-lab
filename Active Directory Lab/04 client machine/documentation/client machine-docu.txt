@@ -1,0 +1,10 @@
+Purpose:
+Join a workstation to the Active Directory domain.
+
+Actions:
+- Configured DNS
+- Joined workstation to corp.local
+- Authenticated with domain credentials
+
+Result:
+Client successfully joined domain and authenticated using AD accounts.

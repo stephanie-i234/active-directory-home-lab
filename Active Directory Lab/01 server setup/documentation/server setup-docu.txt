@@ -1,0 +1,10 @@
+Purpose:
+Deploy a Windows Server virtual machine to serve as a Domain Controller.
+
+Actions:
+- Installed Windows Server 2022
+- Configured VMware resources
+- Renamed server to DC01
+
+Result:
+Server successfully prepared for Active Directory deployment.

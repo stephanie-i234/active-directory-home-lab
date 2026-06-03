@@ -1,0 +1,15 @@
+Purpose:
+Configure network communication between the Domain Controller and client workstation.
+
+Issue:
+Initial domain join attempts failed.
+
+Root Cause:
+Domain Controller was configured on a different subnet than VMware NAT.
+
+Resolution:
+Reconfigured Domain Controller to:
+192.168.174.10
+
+Result:
+Client successfully resolved corp.local through DNS.
