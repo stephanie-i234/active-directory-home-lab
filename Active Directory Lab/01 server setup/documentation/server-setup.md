@@ -10,9 +10,9 @@ Deploy a Windows Server 2022 virtual machine to serve as the Domain Controller f
 * Installed Windows Server 2022.
 * Configured virtual machine resources (CPU, memory, storage, and network adapter).
 * Renamed the server to **DC01**.
-   ![server renamed image](screenshots/server_name_change.png)
+   ![server renamed image](../screenshots/server_name_change.png)
 * Verified the operating system installation completed successfully.
-  ![Confirmed Server Name Change](screenshots/local_server_screenshot.PNG)
+  ![Confirmed Server Name Change](../screenshots/local_server_screenshot.PNG)
 
 ## Outcome
 
