@@ -17,8 +17,10 @@ The Domain Controller was configured on a different subnet than the VMware NAT n
 - Verified both virtual machines were connected to the VMware NAT network.
 - Reconfigured the Domain Controller with the correct static IP address.
 - Assigned the Domain Controller the address **192.168.174.10**.
+  ![Corrected Static IP Configuration](../../03 active directory/screenshots/corrected-static-ip-config.PNG)
+  
 - Verified network communication using `ping`.
-- Confirmed DNS resolution using `nslookup`.
+- Confirmed DNS resolution using `nslookup`. 
 
 ## Result
 
