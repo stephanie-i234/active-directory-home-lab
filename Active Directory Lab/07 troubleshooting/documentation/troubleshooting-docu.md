@@ -16,5 +16,7 @@ Subnet mismatch between Domain Controller and VMware NAT network.
 Resolution:
 Updated Domain Controller static IP configuration to match VMware NAT subnet.
 
+#### Refer to HD-005 Network Connectivity Troubleshooting
+
 Outcome:
 Client successfully joined domain.
